@@ -1,0 +1,51 @@
+Unit-1 Chapter-4 Lesson-09
+
+1. How will you style two headings H1 and H2 with same styling?
+
+We can use a Class Selector in this case. This will apply the specified styling to both headings.
+.heading {
+ color: red;
+ font-size: 24px;
+}
+<h1 class="heading">Heading 1</h1>
+<h2 class="heading">Heading 2</h2>
+
+
+
+2. By which attributes you can give dimensions to an element?
+
+Using, “height”, “width”, “min-height”, “min-width”, “max-height”, “max-width”, we can give 
+dimensions to an element.
+
+
+
+Unit-1 Chapter-4 Lesson-10
+
+1. Name some font related attributes in CSS -
+
+Here are a few examples:
+
+font-family: This attribute specifies the font family to use for the text. You can specify a specific font, 
+or you can use a generic font family name (e.g., serif, sans-serif, monospace).
+font-size: This attribute specifies the size of the font in pixels or other units. You can use absolute sizes 
+(e.g., 12px) or relative sizes (e.g., larger, smaller).
+font-style: This attribute specifies the style of the font (e.g., normal, italic, oblique).
+font-weight: This attribute specifies the weight of the font (e.g., normal, bold, lighter, bolder).
+font-variant: This attribute specifies the variant of the font (e.g., normal, small-caps).
+
+
+
+2. How would you style an image or element to have rounded corners?
+
+To style an image or element with rounded corners in CSS, we can use the border-radius property. 
+This property takes a length value or a percentage, and it controls the curvature of the element's 
+corners.
+
+Here is an example of how we might use the border-radius property to style an image with rounded 
+corners:
+
+img {
+ border-radius: 50%;
+}
+
+This will give the image rounded corners with a radius of 50% of the element's width and height
